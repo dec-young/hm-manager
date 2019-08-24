@@ -4,7 +4,8 @@ import router from './router/router.js'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 //
-import '@/styles/icon.less'
+// import '@/styles/icon.less'
+import '@/styles/index.less'
 Vue.use(ElementUI)
 
 // 导航守卫

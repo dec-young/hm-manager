@@ -28,7 +28,7 @@
 
 <script>
 // import { type } from 'os'
-import { login } from '@/api/user_index.js'
+import { login } from '@/api/login_index.js'
 
 export default {
   data () {
@@ -89,7 +89,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less" >
 .login {
   position: fixed;
   width: 100%;
