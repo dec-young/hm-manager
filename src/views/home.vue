@@ -13,8 +13,9 @@
           background-color="#545c64"
           text-color="#fff"
           active-text-color="#ffd04b"
+
         >
-        <!-- 用户管理 -->
+          <!-- 用户管理 -->
           <el-submenu index="1">
             <template slot="title">
               <i class="el-icon-location"></i>
@@ -104,7 +105,7 @@
           <span class="myicon myicon-menu toggle-btn"></span>
           <h2 class="system-title">电商管理后台</h2>
           <a href="javascript" class="logout">退出</a>
-          </el-header>
+        </el-header>
         <el-main>
           <router-view></router-view>
         </el-main>
